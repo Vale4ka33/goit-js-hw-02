@@ -1,13 +1,3 @@
-// function checkForSpam(message) {
-//     const audit_1 = "spam";
-//     const  audit_2 = "sale";
-//     const lowerMessege = message.toLowerCase();
-//     if (lowerMessege.includes(audit_1) || lowerMessege.includes(audit_2)) {
-//         return true;
-//     } else { 
-//         return false;
-//     }
-// }
 
 function checkForSpam(message) {
     const lowerMessage = message.toLowerCase();
